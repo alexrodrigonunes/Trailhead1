@@ -7,7 +7,6 @@ global class FutureMethodRecordProcessing2
          List<Account> accts = [SELECT Name FROM Account limit 300];
          //comentando meu código.
          //comentário 2.
-         //comentario 3.
          // Process records
     }
 }
