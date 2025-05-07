@@ -4,7 +4,7 @@ global class FutureMethodRecordProcessing2
     public static void processRecords2()
     {   
          // Get those records based on the IDs
-         List<Account> accts = [SELECT Name FROM Account limit 100];
+         List<Account> accts = [SELECT Name FROM Account limit 300];
          // Process records
     }
 }
